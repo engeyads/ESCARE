@@ -1,0 +1,377 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+/* arabic */
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scheherazade'), local('Scheherazade-Regular'), url(https://fonts.gstatic.com/s/scheherazade/v15/YA9Ur0yF4ETZN60keViq1kQQtZmptvY.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/lateef.css); 
+
+.droid-arabic-kufi {
+    font-family: 'Lateef', serif;
+}
+
+
+* {
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+a, a::before, a::after, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+html, body {
+    outline: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.bg {
+    position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    display: block;
+    background-image: url("../IMG/bg01.jpeg");
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron1 {
+    direction: rtl;
+    position: relative;
+    background-color: rgba(200, 220, 255, 0);
+    margin: auto;
+    margin-top: 30px;
+    padding:30px;
+}
+.labelStyle {
+    font-size: 17px;
+    font-weight: 900;
+}
+.labelStyleH2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+.taH2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.taH2r {
+
+}
+.txtStyle{
+    height:28px;
+}
+select {
+    background-color: #fbfbfb !important;
+    background-image: none !important;
+    border: 1px solid #e4e4e4 !important;
+    -moz-border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    border-radius: 2px !important;
+    filter: none !important;
+    outline: medium none;
+    min-width: 177px;
+    height: 25px;
+}
+
+    select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+        -moz-box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        outline: thin dotted #333;
+        outline-offset: -2px;
+    }
+
+textarea {
+    background-color: #fbfbfb;
+    border: 1px solid #959595 !important;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 11px;
+    -moz-transition: border 0.2s linear 0s, -moz-box-shadow 0.2s linear 0s;
+    -o-transition: border 0.2s linear 0s, -o-box-shadow 0.2s linear 0s;
+    -webkit-transition: border 0.2s linear 0s, -webkit-box-shadow 0.2s linear 0s;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.jumbotron1 table tr td hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em;
+    padding: 0;
+    border: 0; /* in order to override TWBS stylesheet */
+    height: 2px;
+    background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* W3C */
+}
+.innerTable td{
+    margin:0;
+    padding:0;
+}
+.jumbotron1 table {
+    margin: auto;
+}
+#MainContent_btnSearch {
+    border:1px solid lightgrey;
+    padding: 3.3px;
+    margin: 10px;
+    margin-right: -5px;
+    margin-top: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.searchPat ul{
+    position:relative;
+    float:right;
+}
+.radioButtonList td {
+    vertical-align: top;
+    
+}
+
+.radioButtonList input[type="radio"] {
+    float: right;
+    
+}
+
+.radioButtonList label {
+    width: 150px;
+    display: block;
+    padding-right: 20px;
+}
+li{
+    list-style:none;
+}
+.TbodyText{
+    width:50px;
+}
+.TableHeader th {
+    text-align: center;
+}
+.BillServices {
+    position: absolute;
+    right: 10px;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 310px;
+    padding-left: 620px;
+    background-color: rgba(20,70,125,.8);
+    color: white;
+    font-size:17px;
+}
+.Tables {
+    position: absolute;
+    right: 10px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.Tables .tab input[type="text"] {
+    min-width:120px;
+    width:120px;
+}
+.Bills {
+    padding-bottom: 350px;
+}
+.Doc {
+    position: absolute;
+    right: 10px;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 310px;
+    padding-left: 620px;
+    background-color: rgba(20,70,125,.8);
+    color: white;
+    font-size: 17px;
+}
+.Doctor {
+    padding-bottom: 350px;
+}
+.Tot {
+    position: absolute;
+    right: 10px;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 230px;
+    padding-left: 620px;
+    background-color: rgba(20,70,125,.8);
+    color: white;
+    font-size: 17px;
+    font-weight:800;
+}
+
+.Total {
+    padding-bottom: 230px;
+}
+
+.Services {
+    position: absolute;
+    top: 410px;
+    right: 770px;
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 310px;
+    padding-left: 270px;
+    background-color: rgba(20,70,125,.8);
+    color: white;
+    font-size: 17px;
+    font-weight: 800;
+    max-height: 180px;
+}
+
+.Ser {
+    padding-bottom: 170px;
+    max-height: 180px;
+    max-width: 122px;
+    
+}
+.grd {
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    border-collapse: separate;
+    
+}
+
+    .grd tr {
+        height: 35px;
+        color:black;
+    }
+
+        .grd tr:nth-child(odd):not(:first-child) {
+            background-color: white;
+        }
+
+    .grd th {
+        background-color: rgba(95,156,217,1);
+        color: white;
+        border: none;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    .grd tr:nth-child(even) {
+        background-color: #e4e4e4;
+    }
+
+    .grd td {
+        border: none;
+        border-radius: 30px;
+    }
+
+    .grd tr:last-child td:first-child {
+        border-radius: 30px;
+    }
+.zag {
+    width: 99px;
+    height: 290px;
+    padding-left: 363px;
+    padding-bottom: 130px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 30px;
+}
+.tables1 {
+    position: absolute;
+    right: 10px;
+    margin: 0;
+    margin-bottom: 100px;
+    max-height: 170px;
+    height: 170px;
+    
+}
+.subject {
+    border: 2px solid grey;
+    background-color: grey;
+    margin-top: -13px;
+    margin-right: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 17px;
+    color: white;
+    font-weight: 900;
+}
+.buttons {
+    border: none;
+    background-color: rgba(50,210,255,.8);
+    height: 28px;
+    margin: 0;
+    margin-top: -11px;
+    border-radius:3px;
+}
+.BillServices input[type="text"]:focus {
+    color:aqua;
+    background-color:grey;
+    position:absolute;
+    margin-right:20px;
+}
+input:hover {
+    color: orangered;
+}
+select:hover {
+    color:orangered;
+}
+.tabButon {
+    Height: 30px;
+    Width: 30px;
+    margin-top:-12px;
+}
+.tabButon:hover {
+    /*filter: invert(100%);*/
+    /*filter: saturate(40%);*/
+    /*filter: sepia(20%);*/
+    /*filter: hue-rotate(260deg);*/
+    filter: brightness(1.4);
+}
+.tabButon:focus {
+    /*filter: invert(100%);*/
+    /*filter: saturate(40%);*/
+    /*filter: sepia(20%);*/
+    /*filter: hue-rotate(260deg);*/
+    filter: brightness(0.7);
+}
+.msg {
+    position: fixed;
+    direction: rtl;
+    left: 20px;
+    top: 66px;
+    min-width: 200px;
+    min-height: 40px;
+    background-color: rgba(20,70,125,.8);
+    font-weight: 900;
+    color: coral;
+    z-index: 1000;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cln{
+    width:150px;
+}
+.srch {
+    width: 150px;
+}

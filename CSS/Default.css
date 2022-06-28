@@ -1,0 +1,539 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+
+* {
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+a, a::before, a::after, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+html, body {
+    overflow: hidden;
+    outline: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.bg {
+    position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    display: block;
+    background-image: url("../IMG/bg01.jpeg");
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron {
+    position: relative;
+    background-color: rgba(0,0,0,0);
+    margin: auto;
+}
+
+.butos table {
+    margin: auto;
+}
+
+.butos td {
+    width: 137px;
+    height: 137px;
+}
+
+.butos {
+    position: relative;
+    margin: auto;
+}
+
+.buts {
+    position: relative;
+    color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(200, 220, 255, 0.9);
+    background-repeat: no-repeat;
+    border: 1px solid rgba(122, 122, 155, 0.9);
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.butos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    .butos ul li {
+        list-style: none;
+        color: black;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(200, 220, 255, 0.9);
+        background-repeat: no-repeat;
+        border: 1px solid rgba(122, 122, 155, 0.9);
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        line-height: 20px;
+        background-position: center;
+        text-align: center;
+        font-weight: 900;
+    }
+
+        .butos ul li p {
+            line-height: 210px;
+        }
+
+#btnAppo {
+    background-image: url('../icons/Appointment.png');
+    background-size: 50px 50px;
+    border-top-left-radius: 30px;
+}
+
+    #btnAppo:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnAdmin {
+    background-image: url('../icons/admin.png');
+    background-size: 50px 50px;
+}
+
+    #btnAdmin:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnRad {
+    background-image: url('../icons/radiation.png');
+    background-size: 50px 50px;
+}
+
+    #btnRad:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnLab {
+    background-image: url('../icons/Lab.png');
+    background-size: 50px 50px;
+}
+
+    #btnLab:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnPat {
+    background-image: url('../icons/Patient.png');
+    background-size: 50px 50px;
+}
+
+    #btnPat:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnCPat {
+    background-image: url('../icons/Company.png');
+    background-size: 50px 50px;
+    border-top-right-radius: 30px;
+    font-size: 13px;
+}
+
+    #btnCPat:hover {
+        background-size: 70px 70px;
+        font-size: 16px;
+    }
+
+
+#btnServ {
+    background-image: url('../icons/Services.png');
+    background-size: 50px 50px;
+}
+
+    #btnServ:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnFPat {
+    background-image: url('../icons/Family.png');
+    background-size: 50px 50px;
+}
+
+    #btnFPat:hover {
+        background-size: 70px 70px;
+        font-size: 19px;
+    }
+
+
+#btnMaster {
+    background-image: url('../icons/Home.png');
+    background-size: 50px 50px;
+    border-radius: 30px;
+}
+
+    #btnMaster:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnRep {
+    background-image: url('../icons/Reports.png');
+    background-size: 50px 50px;
+}
+
+    #btnRep:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnER {
+    background-image: url('../icons/Emergency.png');
+    background-size: 50px 50px;
+}
+
+    #btnER:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnCWD {
+    background-image: url('../icons/Discount.png');
+    background-size: 50px 50px;
+    border-bottom-left-radius: 30px;
+    font-size: 12px;
+}
+
+    #btnCWD:hover {
+        background-size: 70px 70px;
+        font-size: 14px;
+    }
+
+
+#btnDoc {
+    background-image: url('../icons/Doctor.png');
+    background-size: 50px 50px;
+}
+
+    #btnDoc:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnBill {
+    background-image: url('../icons/billing.png');
+    background-size: 50px 50px;
+}
+
+    #btnBill:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnIns {
+    background-image: url('../icons/insurance.png');
+    background-size: 50px 50px;
+}
+
+    #btnIns:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnSR {
+    background-image: url('../icons/Stockroom.png');
+    background-size: 50px 50px;
+}
+
+    #btnSR:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+#btnOp {
+    background-image: url('../icons/Operation.png');
+    background-size: 50px 50px;
+    border-bottom-right-radius: 30px;
+}
+
+    #btnOp:hover {
+        background-size: 70px 70px;
+        font-size: 20px;
+    }
+
+
+.butos ul li:hover {
+    background-color: rgba(125, 245, 255, 0.4);
+    border: none;
+    box-shadow: inset 0px 0px 40px rgba(150,33,33,1);
+}
+
+.dim {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 10000;
+}
+
+.cl {
+    position: relative;
+    width: 650px;
+    top: -500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    z-index: 10000;
+    border-radius: 30px;
+}
+
+.cl-head {
+    position: relative;
+    padding-bottom: 20px;
+    background: rgba(100, 120, 155, 1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+}
+
+
+.cl .inbutos {
+    position:relative;
+    max-height: 500px;
+    overflow: auto;
+}
+
+    .cl .inbutos table {
+        margin: auto;
+        max-height: 550px;
+        overflow: auto;
+    }
+
+    .cl .inbutos td {
+        width: 190px;
+        height: 90px;
+    }
+    .cl .inbutos .inhead {
+        width: 190px;
+        height: 20px;
+        background-color: rgba(100, 120, 155, 1);
+        color:white;
+    }
+    .cl .inbutos ul {
+        position: relative;
+        list-style: none;
+        margin: 5px;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+        .cl .inbutos ul li {
+            list-style: none;
+            color: black;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(200, 220, 255, 0.6);
+            background-repeat: no-repeat;
+            border: 1px solid rgba(122, 122, 155, 0.6);
+            cursor: pointer;
+            overflow: hidden;
+            outline: none;
+            line-height: 20px;
+            background-position: center;
+            text-align: center;
+            font-weight: 900;
+        }
+
+            .cl .inbutos ul li p {
+                
+            }
+            /*#btnBills1 {
+    background-image: url('../icons/Appointment.png');
+    background-size: 30px 30px;
+}
+
+    #btnBills1:hover {
+        background-size: 40px 40px;
+    }*/
+
+            .cl .inbutos ul li i {
+                font-size: 30px;
+                text-align: center;
+                width: 100% !important;
+                vertical-align: baseline;
+                line-height: 50px;
+            }
+
+            .cl .inbutos ul li:hover i {
+                /*filter: invert(100%);*/
+                color:cornflowerblue;
+            }
+
+
+            .cl .inbutos ul li:hover {
+                border: none;
+                background-color:white;
+            }
+/*.cl .inbutos tr:last-child td:first-child{
+    border-bottom-left-radius:30px;
+}
+.cl .inbutos tr:last-child td:last-child {
+    border-bottom-right-radius: 30px;
+}*/
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    margin-left: 38%;
+    margin-right: 38%;
+    color: black;
+}
+
+    footer p {
+        margin: 5px;
+    }
+
+    footer hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #000;
+        margin: 1em 0;
+        padding: 0;
+        border: 0; /* in order to override TWBS stylesheet */
+        height: 2px;
+        background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* FF3.6+ */
+        background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* IE10+ */
+        background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* W3C */
+}
+.lang{
+    position:fixed;
+    height:150px;
+    width:100px;
+    left:-100px;
+    top:40%;
+    background-color:rgba(0,0,0,.6);
+}
+.lang .langBar {
+    color:black;
+    position: relative;
+    margin:5px;
+    top:-40px;
+    padding-top:30px;
+    background-color: rgba(255,255,255,.6);
+}
+    .lang .pl {
+        position: relative;
+        height: auto;
+        width: 35px;
+        left: 100px;
+        color: white;
+        background-color: rgba(0,0,0,.6);
+        font-size: 25px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .lang li {
+        list-style: none;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        outline: none;
+        background-position: center;
+        text-align: center;
+        font-weight: 900;
+        margin-left:-20px;
+    }
+        .lang li i {
+            font-size: 25px;
+            cursor: pointer;
+        }
+    .lang #btnLang {
+        background-image: url('../icons/Ar.png');
+        background-size: 60px 30px;
+        width: 60px;
+        height:30px;
+        background-repeat: no-repeat;
+    }
+    .lang #btnLang i {
+        position: relative;
+        height: auto;
+        width: auto;
+        line-height: 35px;
+        cursor: pointer;
+    }
+    .lang #btnLang p {
+        position: relative;
+        top: -20px;
+        cursor: pointer;
+    }
+.DateTimeNow {
+    position: fixed;
+    height: 150px;
+    width: auto;
+    padding:14px;
+    right: 0px;
+    top: 60%;
+    background-color: rgba(0,0,0,.6);
+    font-size: 20px;
+    text-decoration: none;
+    direction: rtl;
+}
+    .DateTimeNow table {
+        margin-left:40px;
+    }
+    .DateTimeNow i {
+        font-style: normal;
+        margin-left:8px;
+    }
+    .DateTimeNow ul li {
+        list-style: none;
+        color: white;
+    }
+.DateTimeNow #nowLoged{
+    margin-bottom:30px;
+}

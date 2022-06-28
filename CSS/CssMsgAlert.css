@@ -1,0 +1,101 @@
+﻿
+/*********************************************************
+
+        Alert Messages Design 
+************************************************************************/
+
+.Success
+{
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 4px #69A46A;
+    color: #468847;
+    font-family: 'Droid Arabic Kufi' ,serif;
+    font-size: 13px;
+    height: 43px;
+    line-height: 29px;
+    padding: 8px 35px 8px 14px;
+    position: fixed;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    min-width: 400px;
+    z-index: 10000001;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+.Error
+{
+    background-color: #F2DEDE;
+    border-color: #EED3D7;
+    color: #B94A48;
+    font-family: 'Droid Arabic Kufi' ,serif;
+    position: fixed;
+    text-align: center;
+    z-index: 10000001;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 4px 4px 4px 4px;
+    font-size: 13px;
+    min-width: 400px;
+    height: 43px;
+    line-height: 43px;
+    box-shadow: 0 1px 4px #F2DEDE;
+     position: fixed;
+    left: 20px;
+    top: 20px;
+}
+.headerdetails
+{
+    float: right;
+    font-family: 'Droid Arabic Kufi' ,serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: -20px;
+    text-align: right;
+    z-index: 10000001;
+}
+.Warning
+{
+    font-family: 'Droid Arabic Kufi' ,serif;
+    position: fixed;
+    text-align: center;
+    z-index: 10000001;
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    color: #C09853;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 4px 4px 4px 4px;
+    font-size: 13px;
+    min-width: 500px;
+    height: 43px;
+     position: fixed;
+    left: 20px;
+    top: 20px;
+    box-shadow: 0 1px 4px #D3C78D;
+}
+.Information
+{
+    background-color: #0099FF;
+    border-color: #0099FF;
+    color: #fff;
+    font-family: 'Droid Arabic Kufi' ,serif;
+    text-align: center;
+    z-index: 10000001;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);*/
+    padding: 8px 35px 8px 14px;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 14px;
+    min-width: 400px;
+    height: 43px;
+    line-height: 43px;
+    box-shadow: 0 1px 4px #000;
+     position: fixed;
+    left: 20px;
+    top: 20px;
+    font-weight:700;
+}
+
+    

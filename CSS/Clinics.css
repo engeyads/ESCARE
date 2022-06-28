@@ -1,0 +1,300 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+/* arabic */
+@font-face {
+    font-family: 'Scheherazade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Scheherazade'), local('Scheherazade-Regular'), url(https://fonts.gstatic.com/s/scheherazade/v15/YA9Ur0yF4ETZN60keViq1kQQtZmptvY.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/lateef.css); 
+
+.droid-arabic-kufi {
+    font-family: 'Lateef', serif;
+}
+
+
+* {
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+a, a::before, a::after, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+html, body {
+    outline: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.bg {
+    position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    display: block;
+    background-image: url("../IMG/bg01.jpeg");
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron1 {
+    direction: rtl;
+    position: relative;
+    background-color: rgba(200, 220, 255, 0.9);
+    margin: auto;
+    margin-top: 30px;
+    padding:30px;
+}
+.labelStyle {
+    font-size: 17px;
+    font-weight: 900;
+}
+.labelStyleH2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+.taH2 {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.taH2r {
+
+}
+.txtStyle {
+    height: 28px;
+}
+select {
+    background-color: #fbfbfb !important;
+    background-image: none !important;
+    border: 1px solid #e4e4e4 !important;
+    -moz-border-radius: 2px !important;
+    -webkit-border-radius: 2px !important;
+    border-radius: 2px !important;
+    filter: none !important;
+    outline: medium none;
+    min-width: 177px;
+    height: 25px;
+}
+
+.Checks label {
+    margin-left: 10px;
+}
+
+select:focus, input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: thin dotted #333;
+    outline-offset: -2px;
+}
+
+
+.jumbotron1 table tr td hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em;
+    padding: 0;
+    border: 0; /* in order to override TWBS stylesheet */
+    height: 2px;
+    background: -moz-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* FF3.6+ */
+    background: -webkit-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(196,222,138,1) 0%, rgba(196,222,138,1) 12.5%, rgba(245,253,212,1) 12.5%, rgba(245,253,212,1) 25%, rgba(255,208,132,1) 25%, rgba(255,208,132,1) 37.5%, rgba(242,122,107,1) 37.5%, rgba(242,122,107,1) 50%, rgba(223,157,185,1) 50%, rgba(223,157,185,1) 62.5%, rgba(192,156,221,1) 62.5%, rgba(192,156,221,1) 75%, rgba(95,156,217,1) 75%, rgba(95,156,217,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 87.5%, rgba(94,190,227,1) 100%); /* W3C */
+}
+.innerTable td{
+    margin:0;
+    padding:0;
+}
+.jumbotron1 table {
+    margin: auto;
+}
+.buttons {
+    border: none;
+    background-color: rgba(50,210,255,.8);
+    height: 28px;
+    margin: 0;
+    margin-top: -11px;
+    border-radius: 3px;
+}
+input:focus, textarea:focus {
+    color: aqua;
+    background-color: grey;
+}
+
+input:hover {
+    color: orangered;
+}
+
+select:hover, textarea:hover {
+    color: orangered;
+}
+.Save{
+    padding-top:20px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+.txtStyle::-webkit-inner-spin-button,
+.txtStyle::-webkit-outer-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.Grid{
+    margin-top:40px;
+}
+.Grid input[type="text"]{
+    width:100px;
+}
+.GridView {
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    border-collapse: separate;
+    font-size: 13px;
+}
+
+    .GridView input[type="text"] {
+        width: 50px;
+        font-size: 13px;
+    }
+
+    .GridView input[type="date"] {
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .GridView input[type="email"] {
+        width: 160px;
+        font-size: 13px;
+    }
+
+    .GridView tr {
+        height: 35px;
+    }
+
+        .GridView tr:nth-child(odd):not(:first-child):not(:last-child) td {
+            background-color: white;
+        }
+
+    .GridView th {
+        background-color: rgba(95,156,217,1);
+        color: white;
+        border: none;
+        text-align: center;
+        border-radius: 30px;
+        font-size: 13px;
+    }
+
+    .GridView tr:nth-child(even):not(:last-child) td {
+        background-color: #e4e4e4;
+    }
+
+    .GridView td {
+        border: none;
+        font-size: 13px;
+    }
+
+    .GridView tr:not(:last-child) td:not(:last-child) {
+        border-left: 1px double lightgrey;
+    }
+
+    .GridView tr td:first-child {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .GridView tr td:last-child {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+
+    .GridView tr:last-child td:first-child:last-child {
+        background-color: rgba(95,156,217,.0);
+    }
+
+    .GridView tr:last-child td {
+        background-color: rgba(95,156,217,1);
+        color: white;
+        padding-left: 13px;
+        padding-right: 13px;
+        border-radius: 30px;
+    }
+.ddliki {
+    min-width: 165px;
+    width: 165px;
+}
+.EditButton {
+    border: none;
+    background-image: url("/icons/edit.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 28px;
+    margin: 0;
+    border-radius: 3px;
+    padding: 7px;
+    padding-left: 23px;
+}
+.EditButton:hover {
+    filter: brightness(1.4);
+}
+.EditButton:focus {
+    filter: brightness(0.4);
+}
+.CancelButton {
+
+    background-image: url("/icons/x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 28px;
+    margin: 0;
+    border-radius: 3px;
+    padding: 7px;
+    padding-left: 23px;
+}
+.CancelButton:hover{
+    filter: brightness(1.4);
+}
+.CancelButton:focus {
+    filter: brightness(0.4);
+}
+.UpdateButton {
+    border: none;
+    background-image: url("/icons/T.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 28px;
+    margin: 0;
+    padding-left: 20px;
+    border-radius: 3px;
+    padding: 7px;
+    padding-left: 23px;
+}
+.UpdateButton:hover{
+    filter: brightness(1.4);
+}
+.UpdateButton:focus{
+    filter: brightness(0.4);
+}
